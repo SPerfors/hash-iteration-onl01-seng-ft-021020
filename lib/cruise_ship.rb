@@ -8,5 +8,8 @@
 
 def select_winner(passengers)
   passengers.each do |suite, name| 
-    if suite == "suite_a" && name
+    if suite == "suite_a" && name.chr == "A"
+      puts #{name}
+    end
+  end
 end
